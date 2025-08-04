@@ -1,0 +1,10 @@
+
+PS C:\Lincolnuni\COMP_647\project\1158238> & C:/Lincolnuni/COMP_647/project/1158238/.venv/Scripts/Activate.ps1
+
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install seaborn
+pip install scipy
+
+pip freeze > requirements.txt
