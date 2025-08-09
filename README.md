@@ -7,6 +7,12 @@ comp647, James Yeon, 1158238
 # Upload dataset - 29/07/2025
 crop_yield.csv, crop_yield_dataset.csv
 
+# commit title
+ - taks[no]_[ddmmyyyy]_[Phase]_[data]
+   e.g. task02_05082025_EDA_weather_data
+ - commit file name
+   e.g. README
+
 # create folder notebooks
 crop_yield_datapreprocessing.ipynb
 
