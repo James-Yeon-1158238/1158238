@@ -8,3 +8,20 @@ pip install seaborn
 pip install scipy
 
 pip freeze > requirements.txt
+
+
+Using your chosen dataset from Kaggle, perform the following tasks as shown in the lab sessions:
+
+ 
+
+1.   Data Preprocessing  as appropriate to your dataset. Briefly explain what you do using comments in your Python code.
+
+This step includes (a) cleaning the data;(b) missing data imputation with the methods discussed in the class; and  (c) dealing with outliers.
+
+2.   Conduct an exploratory data analysis (EDA) with your dataset investigating correlations and potential relationships among features as discussed in the lab session. Use appropriate algorithms shown in the lab classes.
+
+3.   Provide insightful comments related to your features within your code.
+
+4.   Briefly discuss the question you could potentially explore with the dataset. Back up your reasons using the EDA you have performed with respect your target variable.
+
+5.   Push your code to GitHub repository on or before 11:49PM, 8th September 2025.
