@@ -10,6 +10,8 @@ pip install scikit-learn
 
 pip freeze > requirements.txt
 
+### Insights from the graph
+
 
 Using your chosen dataset from Kaggle, perform the following tasks as shown in the lab sessions:
 
