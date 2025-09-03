@@ -25,11 +25,26 @@ crop_yield_datapreprocessing.ipynb
     Select only the relevant weather features such as Date, Temperature, Humidity, and Wind_Speed.
 4. Split the Date column
     Convert the Date column to datetime format and extract Year, Month, and Day into separate columns.
-5. Save the weather dataset
+5. Save the weather, Soil dataset
     Export the cleaned and structured weather and Soil data into a new CSV file (e.g., crop_weather_data.csv).
 
-# EDA Weather 
- - 05/08/2025 task_02_crop_yield_weather.ipynb 
+# EDA Weather 05/08/2025
+ - task_02_crop_yield_weather_Crop_Yield_median.ipynb 
 
- # EDA Soil_Quality 
- - 09/08/2025 task_02_crop_yield_soiltype.ipynb 
+# EDA Soil_Quality 09/08/2025
+ - task_02_crop_yield_soiltype_Crop_Yield_median.ipynb 
+
+
+# Review after the first analysis - 18/08/2025
+During the first round of analysis, I treated Crop_Yield values of 0 as missing and replaced them with the mean/median. However, while conducting the EDA, I realized that a Crop_Yield value of 0 actually carries meaningful information, so I restarted the work from the beginning.
+
+
+# Data preprocessing rework in progress - 27/08/2025
+- Split the files into Weather and Soil Type without modifying Crop_Yield
+- create files: crop_soiltype_data_0.csv, crop_weather_data_0.csv
+
+# EDA Weather - 30/08/2025
+ - task_03_crop_yield_weather_Crop_Yield_0.ipynb 
+
+# EDA Soil_Quality - 30/08/2025
+ - task_03_crop_yield_soiltype_median.ipynb 
