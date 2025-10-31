@@ -28,3 +28,10 @@ This step includes (a) cleaning the data;(b) missing data imputation with the me
 4.   Briefly discuss the question you could potentially explore with the dataset. Back up your reasons using the EDA you have performed with respect your target variable.
 
 5.   Push your code to GitHub repository on or before 11:49PM, 8th September 2025.
+
+1.	Feature engineering and feature selection as appropriate to your dataset. Briefly explain and justify what you do using comments in your Python code.
+2.	Use appropriate machine learning algorithms (supervised and/or unsupervised) to perform forecasting, classification or clustering tasks with respect to your dataset. Justify why the respective algorithms are selected.
+3.	Conduct performance measures in the algorithm evaluations and justify the selected the performance measures would be the most appropriate to evaluate the algorithms chosen. 
+4.	Explain how you avoid over fitting and underfitting of the algorithms. 
+5.	Perform appropriate eXplainable AI techniques to discover which features are influencing the predictions.
+6.	Push your code to GitHub repository on or before 11:49PM, 3th November 2025.

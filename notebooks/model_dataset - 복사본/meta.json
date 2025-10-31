@@ -1,0 +1,25 @@
+{
+  "random_state": 42,
+  "target": "Crop_Yield",
+  "cat_cols": [
+    "Crop_Type",
+    "Soil_Type"
+  ],
+  "num_cols": [
+    "Soil_pH",
+    "Temperature",
+    "Humidity",
+    "Wind_Speed",
+    "N",
+    "P",
+    "K",
+    "Soil_Quality",
+    "Year",
+    "Month",
+    "Day",
+    "Temperature_orig",
+    "Humidity_orig",
+    "Wind_Speed_orig",
+    "Soil_Quality_orig"
+  ]
+}

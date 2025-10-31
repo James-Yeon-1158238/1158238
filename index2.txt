@@ -1,0 +1,111 @@
+COMP647   Assignment 03
+
+Using your chosen dataset from Kaggle, perform the following tasks as shown in the lab sessions:
+
+1.	Feature engineering and feature selection as appropriate to your dataset. 
+    Briefly explain and justify what you do using comments in your Python code.
+2.	Use appropriate machine learning algorithms (supervised and/or unsupervised) 
+    to perform forecasting, classification or clustering tasks with respect to your dataset. 
+    Justify why the respective algorithms are selected.
+3.	Conduct performance measures in the algorithm evaluations and justify the selected the performance 
+    measures would be the most appropriate to evaluate the algorithms chosen. 
+4.	Explain how you avoid over fitting and underfitting of the algorithms. 
+5.	Perform appropriate eXplainable AI techniques to discover which features are influencing the predictions.
+6.	Push your code to GitHub repository on or before 11:49PM, 3th November 2025.
+ Note: Write appropriate comments along with the code all throughout the exercise.
+
+
+
+1️ Feature Engineering and Feature Selection
+
+(특징 엔지니어링 및 특징 선택)
+
+목표: 데이터셋에서 중요한 변수를 식별하고, 모델 성능 향상에 도움이 되는 새로운 변수를 생성
+
+초안 내용:
+
+결측치(missing values) → 평균/중앙값으로 대체
+
+범주형 변수(Crop_Type, Soil_Type) → One-Hot Encoding 수행
+
+날짜(Date) → 연도(Year), 월(Month), 일(Day)로 분해하여 계절성 반영
+
+불필요한 ID/식별자 열 제거 (예: “Sample_ID”, “Unnamed: 0”)
+
+Feature selection → 상관계수(correlation matrix) 기반으로 다중공선성(Multicollinearity) 높은 변수 제거
+
+
+2️ Machine Learning Algorithm Selection
+
+(머신러닝 알고리즘 선택 및 근거)
+
+목표: 데이터 유형과 문제 특성에 따라 예측(Regression) 모델 선택
+
+초안 내용:
+
+예측 대상: Crop_Yield (연속형 변수) → 회귀 문제(Regression)
+
+알고리즘: Random Forest Regressor
+
+이유: 비선형 관계(non-linear relationship)를 잘 포착
+
+결측치나 이상치에 강함
+
+Feature importance 분석(XAI)과 결합하기 쉬움
+
+
+3 Performance Evaluation and Metrics
+
+(성능 평가 및 지표 선택의 근거)
+
+목표: 모델 예측 성능을 다각도로 평가
+
+초안 내용:
+
+사용한 지표:
+
+R² (결정계수) → 모델의 설명력
+
+RMSE (Root Mean Squared Error) → 오차의 표준편차
+
+MAE (Mean Absolute Error) → 예측 오차의 평균 크기
+
+이유:
+
+회귀 문제에 적합한 평가 방식
+
+R²로 모델의 설명력을 파악하고, RMSE·MAE로 실제 오차 규모를 확인
+
+
+4 Avoiding Overfitting and Underfitting
+
+(과적합과 과소적합 방지)
+
+목표: 모델의 일반화 성능 확보
+
+초안 내용:
+
+데이터 분할: Train/Test (80/20)
+
+Random Forest의 하이퍼파라미터 조정
+
+n_estimators, max_depth, min_samples_split 등
+
+교차검증(Cross-validation) 적용
+
+Feature 수를 제한하여 불필요한 복잡도 제거
+
+
+5 eXplainable AI (XAI)
+
+(설명 가능한 인공지능 적용)
+
+목표: 모델 예측에 영향을 미치는 주요 변수를 식별
+
+초안 내용:
+
+Feature Importance (Random Forest)
+→ 각 변수의 중요도 시각화
+
+SHAP (SHapley Additive exPlanations) 적용
+→ 개별 예측에 어떤 피처가 영향을 미쳤는지 설명
