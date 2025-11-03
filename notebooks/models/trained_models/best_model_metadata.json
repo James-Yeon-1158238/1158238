@@ -1,18 +1,18 @@
 {
     "model_type": "RandomForestRegressor",
-    "training_time_seconds": 8.938237,
+    "training_time_seconds": 9.420784,
     "n_features": 31,
     "train_samples": 28968,
     "test_samples": 7243,
     "train_rmse": 3.5084441619090674,
     "train_mae": 2.1698505021854397,
     "train_r2": 0.9813997021458986,
-    "test_rmse": 4.273184937668228,
+    "test_rmse": 4.273184937668229,
     "test_mae": 2.6470044540253332,
     "test_r2": 0.9725853652164643,
     "r2_difference": 0.00881433692943423,
     "random_state": 42,
-    "timestamp": "2025-11-03 14:39:11",
+    "timestamp": "2025-11-03 16:36:01",
     "is_best_model": true,
     "model_name": "Random_Forest"
 }

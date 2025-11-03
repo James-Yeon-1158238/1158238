@@ -147,4 +147,71 @@ During the first round of analysis, I treated Crop_Yield values of 0 as missing 
  - Conduct correlation and impact analysis of Crop_Yield based on the integrated dataset  
  - task_04_crop_yield_EDA.ipynb
 
- # Exploratory Data Analysis Completed - 08/09-2025
+# Exploratory Data Analysis Completed - 08/09-2025
+
+# Assessment 3
+
+1. Data Loading
+Imported datasets from multiple sources (e.g., soil, weather, and yield data).
+Merged external datasets (NIWA weather, soil type) with crop yield records.
+Verified consistency, missing values, and data integrity.
+
+2. Statistical Analysis
+Conducted exploratory data analysis (EDA) to identify trends, correlations, and outliers.
+Used summary statistics and visualizations (boxplots, histograms, pairplots) to understand variable distributions.
+
+3. Feature Engineering
+Created domain-driven engineered features such as:
+NPK_Total, NPK_Ratio_NP, NPK_Ratio_NK
+Temp_Humidity_Interaction, Vapor_Pressure_Deficit
+Optimal_Temp_Distance, Growing_Degree_Days
+Features designed to capture environmental, soil, and nutrient interactions relevant to crop growth.
+
+4. Encoding Categorical Variables
+Applied One-Hot Encoding for categorical features (e.g., Crop_Type, Soil_Type).
+Ensured consistent encoding between training and testing sets.
+
+5. Feature Selection
+
+Used Correlation Analysis, Random Forest Feature Importance, and Recursive Feature Elimination (RFE) to select key predictors.
+
+Retained features that improved model stability and interpretability.
+
+6. Train-Test Split
+Divided the dataset into training (80%) and testing (20%) sets using a stratified approach.
+Ensured balanced representation of crop and soil categories.
+
+7. Model Selection and Justification
+Evaluated multiple algorithms (e.g., Linear Regression, Random Forest, XGBoost).
+Selected Random Forest as the final model due to its high accuracy, robustness, and interpretability.
+
+8. Cross-Validation for Robust Evaluation
+Applied k-fold cross-validation (k=5) to assess generalization performance.
+Confirmed model stability across different data splits.
+
+9. Learning Curves
+Plotted learning curves to monitor overfitting and underfitting.
+Final model showed convergence between training and validation errors, indicating good generalization.
+
+10. Performance Metrics Justification
+Evaluated models using R², RMSE, and MAE:
+R² – Measures explained variance (predictive power).
+RMSE – Captures large error penalties.
+MAE – Represents practical prediction accuracy.
+These metrics were selected for their relevance to agricultural yield forecasting.
+
+11. Explainable AI (XAI)
+Applied multiple interpretability techniques to understand feature influence:
+Feature Importance (Random Forest) – Global feature contribution.
+SHAP Values – Local interpretability for individual predictions.
+Partial Dependence Plots (PDPs) – Visualized feature interactions.
+
+12. XAI Methods Comparison and Synthesis
+Cross-compared SHAP, Feature Importance, and PDP results to ensure consistent feature ranking.
+Top influential features: Temperature, Soil Quality, NPK Ratios, and Humidity.
+Synthesized findings into actionable insights for agricultural planning.
+
+13. Final Model Summary
+R² > 0.90, Low RMSE/MAE, and Stable Cross-Validation Results.
+Demonstrated excellent predictive accuracy and interpretability.
+Recommended for integration into agricultural decision-support systems.
