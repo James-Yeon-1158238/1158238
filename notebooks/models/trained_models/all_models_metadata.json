@@ -1,5 +1,5 @@
 {
-    "training_date": "2025-11-03 14:09:27",
+    "training_date": "2025-11-03 14:39:22",
     "best_model": "Random_Forest",
     "random_state": 42,
     "n_features": 31,
@@ -8,23 +8,23 @@
     "models": {
         "Random_Forest": {
             "model_type": "RandomForestRegressor",
-            "training_time_seconds": 7.012474,
+            "training_time_seconds": 8.938237,
             "n_features": 31,
             "train_samples": 28968,
             "test_samples": 7243,
             "train_rmse": 3.5084441619090674,
             "train_mae": 2.1698505021854397,
             "train_r2": 0.9813997021458986,
-            "test_rmse": 4.273184937668229,
+            "test_rmse": 4.273184937668228,
             "test_mae": 2.6470044540253332,
             "test_r2": 0.9725853652164643,
             "r2_difference": 0.00881433692943423,
             "random_state": 42,
-            "timestamp": "2025-11-03 14:09:15"
+            "timestamp": "2025-11-03 14:39:11"
         },
         "Gradient_Boosting": {
             "model_type": "GradientBoostingRegressor",
-            "training_time_seconds": 9.899366,
+            "training_time_seconds": 9.48886,
             "n_features": 31,
             "train_samples": 28968,
             "test_samples": 7243,
@@ -36,11 +36,11 @@
             "test_r2": 0.9722403071399843,
             "r2_difference": 0.001793120440239715,
             "random_state": 42,
-            "timestamp": "2025-11-03 14:09:25"
+            "timestamp": "2025-11-03 14:39:20"
         },
         "Ridge_Regression": {
             "model_type": "Ridge",
-            "training_time_seconds": 0.016623,
+            "training_time_seconds": 0.014119,
             "n_features": 31,
             "train_samples": 28968,
             "test_samples": 7243,
@@ -52,11 +52,11 @@
             "test_r2": 0.6670691142829214,
             "r2_difference": -0.0014483336813359005,
             "random_state": 42,
-            "timestamp": "2025-11-03 14:09:25"
+            "timestamp": "2025-11-03 14:39:20"
         },
         "Decision_Tree": {
             "model_type": "DecisionTreeRegressor",
-            "training_time_seconds": 0.134878,
+            "training_time_seconds": 0.129398,
             "n_features": 31,
             "train_samples": 28968,
             "test_samples": 7243,
@@ -68,7 +68,7 @@
             "test_r2": 0.970156118234408,
             "r2_difference": 0.0039980322319076445,
             "random_state": 42,
-            "timestamp": "2025-11-03 14:09:25"
+            "timestamp": "2025-11-03 14:39:20"
         }
     }
 }
