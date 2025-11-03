@@ -1,0 +1,16 @@
+{
+    "model_type": "GradientBoostingRegressor",
+    "training_time_seconds": 9.899366,
+    "n_features": 31,
+    "train_samples": 28968,
+    "test_samples": 7243,
+    "train_rmse": 4.1453569500852625,
+    "train_mae": 2.709909990999804,
+    "train_r2": 0.974033427580224,
+    "test_rmse": 4.299993359857558,
+    "test_mae": 2.800177995374771,
+    "test_r2": 0.9722403071399843,
+    "r2_difference": 0.001793120440239715,
+    "random_state": 42,
+    "timestamp": "2025-11-03 14:09:25"
+}

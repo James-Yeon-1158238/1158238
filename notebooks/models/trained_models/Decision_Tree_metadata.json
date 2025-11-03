@@ -1,0 +1,16 @@
+{
+    "model_type": "DecisionTreeRegressor",
+    "training_time_seconds": 0.134878,
+    "n_features": 31,
+    "train_samples": 28968,
+    "test_samples": 7243,
+    "train_rmse": 4.135709499138037,
+    "train_mae": 2.566601461148428,
+    "train_r2": 0.9741541504663156,
+    "test_rmse": 4.4584932346085475,
+    "test_mae": 2.765410180665525,
+    "test_r2": 0.970156118234408,
+    "r2_difference": 0.0039980322319076445,
+    "random_state": 42,
+    "timestamp": "2025-11-03 14:09:25"
+}

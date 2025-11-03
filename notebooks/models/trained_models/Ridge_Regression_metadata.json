@@ -1,0 +1,16 @@
+{
+    "model_type": "Ridge",
+    "training_time_seconds": 0.016623,
+    "n_features": 31,
+    "train_samples": 28968,
+    "test_samples": 7243,
+    "train_rmse": 14.875592038306381,
+    "train_mae": 11.549057174653736,
+    "train_r2": 0.6656207806015855,
+    "test_rmse": 14.89146755737769,
+    "test_mae": 11.608147899541128,
+    "test_r2": 0.6670691142829214,
+    "r2_difference": -0.0014483336813359005,
+    "random_state": 42,
+    "timestamp": "2025-11-03 14:09:25"
+}

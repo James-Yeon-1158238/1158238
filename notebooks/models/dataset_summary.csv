@@ -1,0 +1,11 @@
+Dataset,Samples,Features,Description
+train_original.csv,28968,31,Training set (original features + target)
+test_original.csv,7243,31,Test set (original features + target)
+train_scaled.csv,28968,31,Training set (scaled features + target)
+test_scaled.csv,7243,31,Test set (scaled features + target)
+X_train.csv,28968,31,Training features only (original)
+y_train.csv,28968,1,Training target only
+X_test.csv,7243,31,Test features only (original)
+y_test.csv,7243,1,Test target only
+X_train_scaled.csv,28968,31,Training features only (scaled)
+X_test_scaled.csv,7243,31,Test features only (scaled)
